@@ -4,7 +4,7 @@ author: "MMAUG Contributors"
 author_github: "MMAUG-ORG"
 date: 2026-04-20
 tags: [github-copilot, demos, workshop, vscode, cli, agentic-workflows]
-description: "Session-by-session technical demo runbooks and workshop guide for GitHub Copilot Dev Days Malta 2026."
+description: "Continue learning at your own pace with session-by-session technical demo runbooks and the workshop facilitation guide from GitHub Copilot Dev Days Malta 2026 — even now that the event has wrapped."
 ---
 
 ## Overview

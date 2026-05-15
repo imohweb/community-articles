@@ -22,32 +22,33 @@ hide_tagline: false
 
 <div class="home-content-grid">
   <div class="home-main-column">
-<section class="featured-event">
+<section class="featured-event" data-event-date="2026-05-09">
   <div class="featured-event-media">
-    <img src="{{ '/assets/images/events/github-copilot-dev-days.png' | relative_url }}" alt="GitHub Copilot Dev Days Malta event banner" />
+    <img src="{{ '/assets/images/events/github-copilot-dev-days.png' | relative_url }}" alt="Build AI App with Microsoft Foundry and Azure event banner" />
   </div>
   <div class="featured-event-body">
   <div class="featured-event-copy">
-    <p class="eyebrow">Featured event</p>
-    <h2>GitHub Copilot Dev Days | Malta</h2>
-    <p class="event-date">April 29, 2026 - 7:00 PM CEST</p>
+    <p class="eyebrow">Recorded session</p>
+    <h2>Build AI App with Microsoft Foundry &amp; Azure</h2>
+    <p class="event-date">May 9, 2026 - Part 1 recording available</p>
     <p>
-      Join an in-person evening of technical sessions and hands-on practice focused on AI-assisted coding with GitHub
-      Copilot. Bring your laptop and get ready to build.
+      Watch Part 1 of the technical hands-on lab for building AI-powered applications with Microsoft Foundry and Azure.
+      The backend app failed during the live session, so the end-to-end app flow was not demonstrated to participants.
+      Part 2 will capture the completed app-flow demo and will be added to the website when it is available.
     </p>
     <div class="inline-actions">
-      <a class="primary-action" href="https://www.meetup.com/malta-microsoft-ai-user-group/events/313713793/" target="_blank" rel="noopener">Register on Meetup</a>
-      <a class="secondary-action" href="https://github.com/MMAUG-ORG/mmaug-github-copilotdevdays2026-technical-demos" target="_blank" rel="noopener">View Demo Resources</a>
+      <a class="primary-action" href="https://www.youtube.com/watch?v=r5vbO_SvmyA" target="_blank" rel="noopener">Watch Part 1 recording</a>
+      <a class="secondary-action" href="/community-articles/articles/build-ai-app-with-microsoft-foundry-azure/" target="_blank" rel="noopener">Open hands-on lab article</a>
     </div>
   </div>
     <dl class="event-facts">
       <div>
-        <dt>Venue</dt>
-        <dd>Microsoft Innovation Centre, Skyparks Business Centre, Luqa</dd>
+        <dt>Format</dt>
+        <dd>Recorded online hands-on lab</dd>
       </div>
       <div>
-        <dt>Format</dt>
-        <dd>In-person sessions plus workshop</dd>
+        <dt>Recording</dt>
+        <dd>Build AI App with Microsoft Foundry &amp; Azure - Part 1</dd>
       </div>
     </dl>
   </div>
@@ -62,19 +63,7 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    <article class="event-card">
-      <p class="event-kicker">April 29</p>
-      <h3>GitHub Copilot Dev Days | Malta</h3>
-      <p>Hands-on AI-assisted coding sessions and workshop for developers using GitHub Copilot.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/313713793/" target="_blank" rel="noopener">View event</a>
-    </article>
-    <article class="event-card">
-      <p class="event-kicker">May 9</p>
-      <h3>Build AI App with Microsoft Foundry & Azure</h3>
-      <p>Online walkthrough for building AI apps with Microsoft Foundry and Azure services.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/313848364/" target="_blank" rel="noopener">View event</a>
-    </article>
-    <article class="event-card">
+    <article class="event-card" data-event-date="2026-05-30">
       <p class="event-kicker">May 30</p>
       <h3>AZD for AI Developers Workshop</h3>
       <p>Hands-on workshop for discovering, deploying, and customizing Azure Developer CLI templates for AI apps.</p>
@@ -83,6 +72,9 @@ hide_tagline: false
     </div>
     <button class="carousel-control carousel-control-next" type="button" aria-label="Scroll upcoming events right" data-carousel-next>&rsaquo;</button>
   </div>
+  <div class="inline-actions" style="margin-top: 1rem;">
+    <a class="secondary-action" href="https://www.meetup.com/malta-microsoft-ai-user-group/events" target="_blank" rel="noopener">View all upcoming events on Meetup</a>
+  </div>
 </section>
   </div>
 
@@ -90,12 +82,40 @@ hide_tagline: false
     <section class="side-widget past-events-widget">
       <p class="eyebrow">Past events</p>
       <h2>Community archive</h2>
+      <article class="past-event-item" data-event-date="2026-05-09">
+        <p class="event-kicker">May 9, 2026</p>
+        <h3>Build AI App with Microsoft Foundry &amp; Azure</h3>
+        <p>
+          Online technical hands-on lab for building an AI app with Microsoft Foundry and Azure.
+          The available recording is Part 1; because the backend app failed during the live session,
+          the end-to-end app flow was not demonstrated and will be captured in Part 2.
+        </p>
+        <div class="past-event-actions">
+          <a href="/community-articles/articles/build-ai-app-with-microsoft-foundry-azure/" target="_blank" rel="noopener">Hands-on lab article</a>
+          <a href="https://www.youtube.com/watch?v=r5vbO_SvmyA" target="_blank" rel="noopener">Build AI App with Microsoft Foundry &amp; Azure - Part 1</a>
+          <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/313848364/" target="_blank" rel="noopener">Event details</a>
+        </div>
+      </article>
+      <article class="past-event-item">
+        <p class="event-kicker">April 29, 2026</p>
+        <h3>GitHub Copilot Dev Days | Malta</h3>
+        <p>
+          In-person evening of technical sessions and a hands-on workshop on AI-assisted coding with GitHub Copilot.
+          Although the event has ended, learners can continue building with the MMAUG community technical demo pack.
+        </p>
+        <div class="past-event-actions">
+          <a href="/community-articles/articles/2026-04-17-github-copilot-dev-days-malta.html" target="_blank" rel="noopener">Event details</a>
+          <a href="/community-articles/articles/github-copilot-dev-days-malta-demo-pack/" target="_blank" rel="noopener">Continue with the demo pack</a>
+          <a href="https://www.youtube.com/watch?v=n1qlNU0ntU8" target="_blank" rel="noopener">Watch full recording</a>
+          <a href="https://www.youtube.com/watch?v=cvpsF0yYVlw" target="_blank" rel="noopener">Watch event highlights</a>
+        </div>
+      </article>
       <article class="past-event-item">
         <p class="event-kicker">April 18, 2026</p>
-        <h3>Leadership Chat on Career Transition in the age of AI</h3>
+        <h3>Leadership Chat on Career Transition in the Age of AI</h3>
         <p>Online community conversation on navigating career change as AI reshapes technical work.</p>
         <div class="past-event-actions">
-          <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG/videos" target="_blank" rel="noopener">Watch recording</a>
+          <a href="https://www.youtube.com/watch?v=g_SUONBoOUw&t=139s" target="_blank" rel="noopener">Watch recording</a>
           <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/past/" target="_blank" rel="noopener">Event details</a>
         </div>
       </article>
@@ -188,7 +208,7 @@ hide_tagline: false
       <strong>Copilot Dev Days Demos</strong>
       <span>Session runbooks, starter code, challenges, and validation workflow.</span>
     </a>
-    <a href="https://github.com/MMAUG-ORG/maltamsaiusergroup" target="_blank" rel="noopener">
+    <a href="{{ '/governance/' | relative_url }}">
       <strong>Community Governance</strong>
       <span>Public operating model, roles, contribution expectations, and code of conduct.</span>
     </a>
