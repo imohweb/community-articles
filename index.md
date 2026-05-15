@@ -195,6 +195,25 @@ hide_tagline: false
 
 <section class="hub-section">
   <div class="section-heading">
+    <p class="eyebrow">Free mentorship packs</p>
+    <h2>Community Mentorship Track</h2>
+    <p>Beginner-friendly mentorship packs are available for free to help community members follow a clearer path into Microsoft AI, Azure, and practical solution building.</p>
+  </div>
+
+  <div class="resource-grid">
+    <a href="{{ '/articles/azure-ai-foundry-6-month-learning-roadmap/' | relative_url }}">
+      <strong>Azure Infrastructure to AI with Microsoft Foundry</strong>
+      <span>A six-month mentorship roadmap for learners moving from Azure infrastructure into AI architecture, Foundry, RAG, governance, and production delivery.</span>
+    </a>
+    <a href="https://learn.microsoft.com/en-us/azure/ai-foundry/" target="_blank" rel="noopener">
+      <strong>Start with Microsoft Foundry docs</strong>
+      <span>Use the official documentation alongside the mentorship pack for platform concepts, model workflows, agents, and evaluation guidance.</span>
+    </a>
+  </div>
+</section>
+
+<section class="hub-section">
+  <div class="section-heading">
     <p class="eyebrow">GitHub resources</p>
     <h2>Explore community projects</h2>
   </div>
