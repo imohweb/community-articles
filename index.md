@@ -22,33 +22,45 @@ hide_tagline: false
 
 <div class="home-content-grid">
   <div class="home-main-column">
-<section class="featured-event" data-event-date="2026-05-09">
+<section class="featured-event featured-event-upcoming" data-event-date="2026-06-24">
   <div class="featured-event-media">
-    <img src="{{ '/assets/images/events/github-copilot-dev-days.png' | relative_url }}" alt="Build AI App with Microsoft Foundry and Azure event banner" />
+    <img src="{{ '/assets/images/events/fy26-build-localhost-luqa-2026.png' | relative_url }}" alt="Microsoft Build localhost Luqa featured event banner" />
   </div>
   <div class="featured-event-body">
   <div class="featured-event-copy">
-    <p class="eyebrow">Recorded session</p>
-    <h2>Build AI App with Microsoft Foundry &amp; Azure</h2>
-    <p class="event-date">May 9, 2026 - Part 1 recording available</p>
+    <p class="eyebrow">Featured Event</p>
+    <h2>Microsoft Build //localhost:luqa</h2>
+    <p class="event-date">Wednesday, June 24, 2026 · In-person event in Luqa, Malta</p>
     <p>
-      Watch Part 1 of the technical hands-on lab for building AI-powered applications with Microsoft Foundry and Azure.
-      The backend app failed during the live session, so the end-to-end app flow was not demonstrated to participants.
-      Part 2 will capture the completed app-flow demo and will be added to the website when it is available.
+      Microsoft Build //localhost is a community-led, hands-on event that brings Microsoft Build content directly into the
+      local technical community. The Malta session is being hosted in collaboration with the DUG Meetup Malta community for
+      developers and cloud engineers who want practical AI implementation experience on Azure.
+    </p>
+    <p>
+      Expect Microsoft Build 2026 takeaways, Azure AI and generative AI use cases, live demos with Microsoft Foundry and
+      GitHub Copilot, guided labs, and practical workflows for building and testing AI-powered applications end to end.
     </p>
     <div class="inline-actions">
-      <a class="primary-action" href="https://www.youtube.com/watch?v=r5vbO_SvmyA" target="_blank" rel="noopener">Watch Part 1 recording</a>
-      <a class="secondary-action" href="/community-articles/articles/build-ai-app-with-microsoft-foundry-azure/" target="_blank" rel="noopener">Open hands-on lab article</a>
+      <a class="primary-action" href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314819120/" target="_blank" rel="noopener">Register on Meetup</a>
+      <a class="secondary-action" href="https://developer.microsoft.com/en-us/reactor/events/27088/" target="_blank" rel="noopener">View Microsoft Reactor details</a>
     </div>
   </div>
     <dl class="event-facts">
       <div>
         <dt>Format</dt>
-        <dd>Recorded online hands-on lab</dd>
+        <dd>In-person community event</dd>
       </div>
       <div>
-        <dt>Recording</dt>
-        <dd>Build AI App with Microsoft Foundry &amp; Azure - Part 1</dd>
+        <dt>Venue</dt>
+        <dd>Microsoft Malta, SkyParks Business Centre, Luqa</dd>
+      </div>
+      <div>
+        <dt>Focus</dt>
+        <dd>Microsoft Foundry, GitHub Copilot, Azure AI, and guided labs</dd>
+      </div>
+      <div>
+        <dt>Registration</dt>
+        <dd>Reserve your spot on Meetup before capacity fills</dd>
       </div>
     </dl>
   </div>
@@ -75,6 +87,12 @@ hide_tagline: false
       <p>This session simplifies common AI terms by breaking down complex ideas into clear, practical explanations.</p>
       <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314806167/" target="_blank" rel="noopener">View event</a>
     </article>
+    <article class="event-card" data-event-date="2026-06-24">
+      <p class="event-kicker">Jun 24</p>
+      <h3>Microsoft Build //localhost:luqa</h3>
+      <p>In-person Build community event with Azure AI use cases, Foundry and GitHub Copilot demos, guided labs, and local developer networking.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/314819120/" target="_blank" rel="noopener">View event</a>
+    </article>
     <article class="event-card" data-event-date="2026-06-27">
       <p class="event-kicker">Jun 27</p>
       <h3>Is SpecKit the future for software development</h3>
@@ -92,6 +110,35 @@ hide_tagline: false
   </div>
   <div class="inline-actions" style="margin-top: 1rem;">
     <a class="secondary-action" href="https://www.meetup.com/malta-microsoft-ai-user-group/events" target="_blank" rel="noopener">View all upcoming events on Meetup</a>
+  </div>
+</section>
+
+<section class="featured-event featured-event-recorded">
+  <div class="featured-event-body">
+  <div class="featured-event-copy">
+    <p class="eyebrow">Recorded Session</p>
+    <h2>Build AI App with Microsoft Foundry &amp; Azure</h2>
+    <p class="event-date">May 9, 2026 · Part 1 recording available</p>
+    <p>
+      Watch Part 1 of the technical hands-on lab for building AI-powered applications with Microsoft Foundry and Azure.
+      The backend app failed during the live session, so the end-to-end app flow was not demonstrated to participants.
+      Part 2 will capture the completed app-flow demo and will be added to the website when it is available.
+    </p>
+    <div class="inline-actions">
+      <a class="primary-action" href="https://www.youtube.com/watch?v=r5vbO_SvmyA" target="_blank" rel="noopener">Watch Part 1 recording</a>
+      <a class="secondary-action" href="/community-articles/articles/build-ai-app-with-microsoft-foundry-azure/" target="_blank" rel="noopener">Open hands-on lab article</a>
+    </div>
+  </div>
+    <dl class="event-facts">
+      <div>
+        <dt>Format</dt>
+        <dd>Recorded online hands-on lab</dd>
+      </div>
+      <div>
+        <dt>Recording</dt>
+        <dd>Build AI App with Microsoft Foundry &amp; Azure - Part 1</dd>
+      </div>
+    </dl>
   </div>
 </section>
   </div>
